@@ -18,7 +18,7 @@ const AuthStatus = () => {
 
   return (
     <p className='auth-status-message'>
-      Welcome {auth.user}!{" "}
+      Welcome <span>{auth.user}!{" "}</span>
       <button
         onClick={() => {
           auth.logout(() => navigate("/login"));

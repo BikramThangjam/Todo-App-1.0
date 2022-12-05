@@ -25,6 +25,10 @@ h1,h2,h3,h4,h5,h6, p {
   justify-content: flex-end;
   margin-bottom: 1rem;
 }
+
+.auth-status-message span{
+  color: rgb(18, 206, 27);
+}
 .auth-status-message button {
   cursor:pointer;
   margin-left: 1rem;
