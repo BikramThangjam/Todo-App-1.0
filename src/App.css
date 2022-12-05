@@ -27,7 +27,8 @@ h1,h2,h3,h4,h5,h6, p {
 }
 
 .auth-status-message span{
-  color: rgb(18, 206, 27);
+  color: rgb(73, 9, 116);
+  margin-left: 5px;
 }
 .auth-status-message button {
   cursor:pointer;
